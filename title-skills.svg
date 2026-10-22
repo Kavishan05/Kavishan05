@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="70" viewBox="0 0 1000 70"><defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#0ea5e9"/><stop offset=".5" stop-color="#6d28d9"/><stop offset="1" stop-color="#be185d"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070f"/><stop offset=".55" stop-color="#0b1020"/><stop offset="1" stop-color="#170a2e"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1b2540" stroke-width="1"/></pattern>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs><rect x="0" y="0" width="1000" height="70" fill="none"/>
+<line x1="20" y1="35" x2="300" y2="35" stroke="url(#g)" stroke-width="2" opacity=".6"/><line x1="700" y1="35" x2="980" y2="35" stroke="url(#g)" stroke-width="2" opacity=".6"/>
+<rect x="320" y="10" width="360" height="50" rx="25" fill="#0b1020" stroke="url(#g)" stroke-width="2"><animate attributeName="stroke-opacity" values="1;.4;1" dur="3s" repeatCount="indefinite"/></rect>
+<text x="500" y="43" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="800" fill="url(#g)" letter-spacing="4">TECH ARSENAL</text>
+<circle cx="20" cy="35" r="4" fill="#00f7ff"><animate attributeName="cx" values="20;300;20" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="980" cy="35" r="4" fill="#ff4ecd"><animate attributeName="cx" values="980;700;980" dur="5s" repeatCount="indefinite"/></circle></svg>
